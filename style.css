@@ -1,0 +1,410 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+.nav{
+    widows: 100%;
+    height: 50px;
+    background-color: #360836;
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    line-height: 20px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.nav ul li a{
+    color: #c54573;
+    text-decoration: none;
+}
+.nav ul li a.home{
+    color: honeydew;
+}
+.nav ul li a:hover{
+    color: honeydew;
+}
+/* end of nav/ */
+
+.main{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url("images/cover.png");
+    background-size: cover;
+    position: relative;
+}
+.main h1{
+    margin: 0;
+    padding-top: 90px;
+    font-size: 50px;
+    color: honeydew;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.main h3{
+    text-transform: uppercase;
+    color: honeydew;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+.main p{
+    padding-top: 100px;
+    color: honeydew;
+    font-size: 25px;
+
+}
+.main .button{
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    width: 330px;
+    height: 60px;
+    background-color: #ff0048;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.main .button::after{
+    content: "";
+    border-top: 25px solid #ff0048;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    position: relative;
+    top: 85px;
+    left: -60px;
+    
+}
+
+/* end of task */
+
+.photo{
+    width: 100%;
+}
+.photo .img{
+    width: 25%;
+    height: 252px;
+    background: url("images/image_1.jpg");
+    float: left;
+}
+.photo .img .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0, 0, 0.5);
+    opacity: 0;
+}
+.photo .img:hover .over{
+    opacity: 1;
+}
+.photo .i-1{
+    background: url("images/image_2.jpg");
+}
+.photo .i-2{
+    background: url("images/image_3.jpg");
+}
+.photo .i-3{
+    background: url("images/image_4.jpg");
+}
+.photo .i-4{
+    background: url("images/image_5.jpg");
+}
+.photo .i-5{
+    background: url("Images/image_6.jpg");
+}
+.photo .i-6{
+    background: url("images/image_7.jpg");
+}
+.photo .i-7{
+    background: url("images/image_8.jpg");
+}
+.photo .i-8{
+    background: url("images/image_9.jpg");
+}
+.photo .i-9{
+    background: url("images/image_10.jpg");
+}
+.photo .i-10{
+    background: url("images/image_11.jpg");
+}
+.photo .i-11{
+    background: url("images/image_12.jpg");
+}
+.clear{
+    clear: both;
+}
+/* end of this task */
+
+.second{
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  background-color: silver;
+}
+.second .head{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  background-color: #ff0048;
+  text-align: center;
+}
+.second .head p{
+ color: #fff;
+ font-size: 20px;
+ letter-spacing: 3px;
+ line-height: 15px;
+}
+.second .folk{
+    text-align: center;
+
+}
+.second .folk h2{
+    margin: 0;
+    padding: 6%;
+    color: red;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: tahoma;
+}
+.second .folk .pic-1{
+    display: inline-block;
+    margin-top: 60px;
+    
+}
+.second .folk .pic-1 h3{
+    color: #ff0048;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.second .folk button{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    width: 230px;
+    border: 0;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+.second .folk button:hover{
+    opacity: .5;
+}
+/* the end of this task */
+
+.end{
+    width: 100%;
+    height: 800px;
+    background-image: url("images/Cover_2.jpg");
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+}
+.end .content h2{
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.end .content{
+    width: 400px;
+    display: inline-block;
+    margin: 90px;
+}
+.end .content h2,p{
+    color: white;
+}
+.end button{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    width: 230px;
+    border: 0;
+    height: 50px;
+    margin-bottom: 15%;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+.end button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.end button:hover{
+    background-color: ff0048;
+}
+.end .bol{
+    text-align: center;
+    margin-top: 10%;
+}
+.end .bol span{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+}
+.end .bol span:hover{
+    background-color: ff0048;
+}
+/* the end of end ptar */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+/* the contact pages ******************** */
+
+.contact{
+    width: 100%;
+    height: 600px;
+    background-image: url("images/coverPage2.PNG");
+    background-size: cover;
+    text-align: center;
+}
+.contact h2{
+    margin: 0;
+    font-size: 35px;
+    color: #000;
+    font-style: italic;
+    padding-top: 5%;
+}
+.contact p{
+    color: #000;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.contact .form{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+.contact .form h2{
+    color: #ff0048;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.contact .form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    background-color:ff0048 ;
+    border: 0;
+    color: #fff;
+    padding-left: 5px;
+    outline: 0;
+}
+.contact .form input:hover{
+    opacity: .8;
+}
+.contact .form textarea{
+    width: 100%;
+    height: 80px;
+    margin-top:8px ;
+    background-color: #ff0048;
+    padding-left: 5px;
+    border: 0;
+    color: #fff;
+    outline: 0;
+}
+.contact .form textarea:hover{
+    opacity: .8;
+}
+.contact .form button{
+    margin-top: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.contact .form button:hover{
+    background-color:ff0048 ;
+    opacity: .7;
+}
+/* end of form parts */
+
+.footer-2{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 5%;
+}
+.footer-2 h2{
+    margin: 0;
+    color:#ff0048 ;
+    font-style: italic;
+}
+.footer-2 p{
+    color: #000;
+    letter-spacing: 2px;
+}
+/* book pages */
+
+.book{
+    text-align: center;
+    background-image: url("images/coverPage2.PNG");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.book h2{
+    margin: 0;
+    padding-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+.book .cover{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 5%;
+}
+.book .cover .left{
+    width: 37%;
+    float: left;
+}
+.book .cover .right{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.book .cover .right p{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.book .cover .right button{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.book .cover .right button:hover{
+    opacity: .5;
+}
